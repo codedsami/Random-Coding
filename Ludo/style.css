@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #f6edee;
+  font-family:  'Itim', cursive;
+  }
+  
+  header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .left-section,
+  .right-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .center-section {
+    flex: 2;
+    text-align: center;
+  }
+  
+  .left-section img,
+  .right-section img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .left-section p,
+  .right-section p {
+    margin-top: 10px;
+  }
+  
+  nav {
+    background-color: #333;
+    color: #fff;
+    height: 50px;
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+  nav ul li {
+    flex-grow: 1;
+  }
+  
+  nav ul li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+  }
+
+  a:hover{
+    color:#f40a0a
+  }
+  a.active{
+    background-color: #fa0d0d;
+    color: #ffffff;
+  }
+  a:focus{
+    background-color: #3eff04;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #6f04fb;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  td{
+    background-color: #12a8da;
+  }
+
+
+  select {
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #e2e82c;
+    border-radius: 4px;
+    background-color: #f4f4f5;
+    color: #060000;
+    transition: border-color 0.3s ease;
+  }
+
+  /* Custom select hover state */
+  select:hover {
+    border-color: #f40a0a;
+  }
+
+  /* Custom select focus state */
+  select:focus {
+    outline: none;
+    border-color: #430cb0;
+    box-shadow: 0 0 5px rgba(11, 120, 13, 0.3);
+  }
+
+  /* Custom select options */
+  select option {
+    font-size: 14px;
+    background-color: #efe59a;
+    color: #f50ac2;
+  }
